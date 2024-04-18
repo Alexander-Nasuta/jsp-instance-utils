@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=65.5.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jsp-instance-utils"
+version = "1.0.0"
+description = "A package containg benchmark instances for the Job Shop Scheduling Problem (JSP) scraped from "
+readme = "README.md"
+authors = [{ name = "Alexander Nasuta", email = "alexander.nasuta@ima.rwth-aachen.de" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = []
+dependencies = [
+    "requests",
+    "numpy",
+    "ortools",
+    "beautifulsoup4",
+    "jsp-vis",
+]
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+dev = [
+    "pip-tools",
+    "pytest",
+    "pytest-cov",
+    "tox",
+    "twine"
+]
+
+[project.urls]
+Homepage = "https://github.com/Alexander-Nasuta/pypitemplate"
+
+[tool.pytest.ini_options]
+addopts = "--cov=jsp_instance_utils -p no:warnings"
+testpaths = [
+    "tests",
+]
