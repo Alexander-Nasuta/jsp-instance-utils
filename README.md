@@ -19,9 +19,9 @@
 </div>
 
 
-- **Github**: todo
+- **Github**: https://github.com/Alexander-Nasuta/jsp-instance-utils/
 
-- **PyPi**: todo
+- **PyPi**: https://pypi.org/project/jsp-instance-utils/
 
 
 # About The Project
@@ -51,7 +51,7 @@ custom_jsp_instance = np.array([
 
 Install the package with pip:
 ```
-   pip install todo
+   pip install jsp-instance-utils
 ```
 
 # Importing a JSP instance OR-tools Solver
@@ -70,7 +70,7 @@ assert makespan == 55
 
 The code above yields the following output, if the `plot_results` flag is set to `True`:
 
-![](https://raw.githubusercontent.com/Alexander-Nasuta/jsp-vis/main/resources/ft06_console.gif)
+![](https://raw.githubusercontent.com/Alexander-Nasuta/jsp-instance-utils/main/resources/ft06-or-tools.png)
 
 # Available Instances
 
