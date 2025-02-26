@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "jsp-instance-utils"
-version = "1.0.1"
+version = "1.0.2"
 description = "A package containg benchmark instances for the Job Shop Scheduling Problem (JSP) scraped from "
 readme = "README.md"
 authors = [{ name = "Alexander Nasuta", email = "alexander.nasuta@wzl-iqs.rwth-aachen.de" }]
@@ -22,7 +22,7 @@ dependencies = [
     "beautifulsoup4",
     "jsp-vis",
 ]
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 
 [project.optional-dependencies]
 dev = [
