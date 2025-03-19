@@ -30,7 +30,25 @@ dev = [
     "pytest",
     "pytest-cov",
     "tox",
-    "twine"
+    "twine",
+    # for examples
+    "gym",
+    "gymnasium",
+    "JSSEnv",
+    "graph-jsp-env",
+    # documentation
+    "sphinx",
+    "myst-parser", # .md support for sphinx
+    "sphinx-autobuild",
+    #
+    "furo", # cool theme
+    "twine",
+    "sphinx-copybutton", # for code copy buttons
+    "nbsphinx", # for jupyter notebook support in sphinx
+    # for converting examples to notebooks
+    "jupytext",
+    "notebook",
+    "typing_extensions>=4.12.0",
 ]
 
 [project.urls]
