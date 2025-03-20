@@ -9,7 +9,7 @@
 project = 'jsp-instance-utils'
 copyright = '2025, Alexander Nasuta'
 author = 'Alexander Nasuta'
-release = '1.0.2'
+release = '1.0.3'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -51,7 +51,7 @@ html_css_files = [
 ]
 
 # Configure autosectionlabel
-autosectionlabel_prefix_document = True
+autosectionlabel_prefix_document = False
 autosectionlabel_maxdepth = 2
 
 # Exclude specific files

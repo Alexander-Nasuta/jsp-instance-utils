@@ -19,6 +19,8 @@
 
 - **PyPi**: https://pypi.org/project/jsp-instance-utils/
 
+- **Documentation**: https://jsp-instance-utils.readthedocs.io/en/latest/
+
 
 # About The Project
 This project contains all Job Shop Scheduling Problem (JSP) benchmark instances from http://jobshop.jjvh.nl/ and some utility functions to work with JSP instances.
