@@ -14,6 +14,8 @@ anyio==4.9.0
     #   jupyter-server
     #   starlette
     #   watchfiles
+appnope==0.1.4
+    # via ipykernel
 argon2-cffi==23.1.0
     # via jupyter-server
 argon2-cffi-bindings==21.2.0
@@ -68,11 +70,6 @@ codecov==2.1.13
     # via jssenv
 colorama==0.4.6
     # via
-    #   build
-    #   click
-    #   ipython
-    #   pytest
-    #   sphinx
     #   sphinx-autobuild
     #   tox
 comm==0.2.2
@@ -357,6 +354,8 @@ pandocfilters==1.5.1
     # via nbconvert
 parso==0.8.4
     # via jedi
+pexpect==4.9.0
+    # via ipython
 pillow==11.1.0
     # via
     #   imageio
@@ -393,6 +392,10 @@ psutil==7.0.0
     # via
     #   ipykernel
     #   jssenv
+ptyprocess==0.7.0
+    # via
+    #   pexpect
+    #   terminado
 pure-eval==0.2.3
     # via stack-data
 pycparser==2.22
@@ -431,17 +434,6 @@ python-json-logger==3.3.0
     # via jupyter-events
 pytz==2024.1
     # via pandas
-pywin32==310
-    # via
-    #   jupyter-core
-    #   plumbum
-pywin32-ctypes==0.2.3
-    # via keyring
-pywinpty==2.0.15
-    # via
-    #   jupyter-server
-    #   jupyter-server-terminals
-    #   terminado
 pyyaml==6.0.2
     # via
     #   jupyter-events
