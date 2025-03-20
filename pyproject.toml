@@ -36,15 +36,18 @@ dev = [
     "gymnasium",
     "JSSEnv",
     "graph-jsp-env",
+    "graph-matrix-jsp-env",
     # documentation
     "sphinx",
     "myst-parser", # .md support for sphinx
     "sphinx-autobuild",
+    "nbsphinx", # for jupyter notebook support in sphinx
     #
     "furo", # cool theme
     "twine",
     "sphinx-copybutton", # for code copy buttons
     "nbsphinx", # for jupyter notebook support in sphinx
+    "pandoc",
     # for converting examples to notebooks
     "jupytext",
     "notebook",

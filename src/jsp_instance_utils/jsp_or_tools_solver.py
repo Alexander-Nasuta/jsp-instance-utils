@@ -12,6 +12,26 @@ log.setLevel(logging.INFO)
 
 
 def solve_jsp(jsp_instance: np.ndarray, plot_results: bool = True) -> (float, str, pd.DataFrame, dict):
+    """
+    :param jsp_instance: the jsp instance to solve. The jsp instance is a numpy array with the following structure:
+        np.array([
+            [
+                [0, 1, 2, 3],  # job 0
+
+                [0, 2, 1, 3]  # job 1
+            ],
+            [
+                [11, 3, 3, 12],  # task durations of job 0
+
+                [5, 16, 7, 4]  # task durations of job 1
+            ]
+        ], dtype=np.int32)
+
+    :param plot_results: if True, the results will be plotted in a gantt chart to the console.
+
+    :return: the makespan, the status of the solver, the gantt chart as pandas dataframe and additional information form
+             the solver (or-tools cp solver).
+    """
     # Create the model.
     model = cp_model.CpModel()
 
