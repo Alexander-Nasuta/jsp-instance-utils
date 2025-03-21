@@ -14,12 +14,13 @@
 
 </div>
 
+- [jsp-instance-utils on **Gitlab**](https://git-ce.rwth-aachen.de/alexander.nasuta/jsp-instance-utils)
 
-- **Github**: https://github.com/Alexander-Nasuta/jsp-instance-utils/
+- [jsp-instance-utils on **Github**](https://github.com/Alexander-Nasuta/jsp-instance-utils/)
 
-- **PyPi**: https://pypi.org/project/jsp-instance-utils/
+- [jsp-instance-utils on **PyPi**](https://pypi.org/project/jsp-instance-utils/)
 
-- **Documentation**: https://jsp-instance-utils.readthedocs.io/en/latest/
+- [jsp-instance-utils **Documentation**](https://jsp-instance-utils.readthedocs.io/en/latest/)
 
 
 # About The Project
@@ -462,11 +463,11 @@ clone the repository in your favorite code editor (for example PyCharm, VSCode, 
 
 using https:
 ```shell
-git clone https://github.com/Alexander-Nasuta/graph-jsp-env
+git clone https://github.com/Alexander-Nasuta/jsp-instance-utils
 ```
 or by using the GitHub CLI:
 ```shell
-gh repo clone Alexander-Nasuta/graph-jsp-env
+gh repo clone Alexander-Nasuta/jsp-instance-utils
 ```
 
 if you are using PyCharm, I recommend doing the following additional steps:
@@ -484,20 +485,20 @@ todo
 Most Developers use a virtual environment to manage the dependencies of their projects.
 I personally use `conda` for this purpose.
 
-When using `conda`, you can create a new environment with the name 'my-graph-jsp-env' following command:
+When using `conda`, you can create a new environment with the name 'my-jsp-instance-utils' following command:
 
 ```shell
-conda create -n my-graph-jsp-env python=3.11
+conda create -n my-jsp-instance-utils python=3.11
 ```
 
 Feel free to use any other name for the environment or an more recent version of python.
 Activate the environment with the following command:
 
 ```shell
-conda activate jsp-instance-utils
+conda activate my-jsp-instance-utils
 ```
 
-Replace `jsp-instance-utils` with the name of your environment, if you used a different name.
+Replace `my-jsp-instance-utils` with the name of your environment, if you used a different name.
 
 You can also use `venv` or `virtualenv` to create a virtual environment. In that case please refer to the respective documentation.
 

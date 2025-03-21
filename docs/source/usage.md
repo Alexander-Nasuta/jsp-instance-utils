@@ -98,7 +98,7 @@ The lowest known makespan is a {'optimal' if ft06_makespan_is_optimal else 'not 
 
 This code snippet returns the following output:
 
-![ft06_screenshot](https://github.com/Alexander-Nasuta/jsp-instance-utils/blob/main/docs/source/_static/ft06_screenshot.png)
+![ft06_screenshot](https://github.com/Alexander-Nasuta/jsp-instance-utils/raw/main/docs/source/_static/ft06_screenshot.png)
 
 Analogously, you can load the `ta01` instance from the package and extract the machine matrix and the processing time matrix:
 
@@ -122,7 +122,7 @@ The lowest known makespan is a {'optimal' if ta01_makespan_is_optimal else 'not 
 
 This code snippet yields the following output:
 
-![ta01_screenshot](https://github.com/Alexander-Nasuta/jsp-instance-utils/blob/main/docs/source/_static/ta01-screenshot.png)
+![ta01_screenshot](https://github.com/Alexander-Nasuta/jsp-instance-utils/raw/main/docs/source/_static/ta01-screenshot.png)
 
 ## Reinforcement Learning Environments
 
