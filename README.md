@@ -590,6 +590,5 @@ If you have any questions or feedback, feel free to contact me via [email](mailt
 # License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-[screenshot]: resources/readme_images/screenshot.png
 
 
