@@ -1,4 +1,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15063451.svg)](https://doi.org/10.5281/zenodo.15063451)
+[![PyPI version](https://img.shields.io/pypi/v/jsp-instance-utils)](https://pypi.org/project/jsp-instance-utils/)
+![License](https://img.shields.io/pypi/l/jsp-instance-utils)
+![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=flat)
 
 <div id="top"></div>
 
