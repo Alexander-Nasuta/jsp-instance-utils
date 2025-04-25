@@ -476,9 +476,6 @@ if you are using PyCharm, I recommend doing the following additional steps:
 - mark the `tests` folder as test root (by right-clicking on the folder and selecting `Mark Directory as` -> `Test Sources Root`)
 - mark the `resources` folder as resources root (by right-clicking on the folder and selecting `Mark Directory as` -> `Resources Root`)
 
-at the end your project structure should look like this:
-
-todo
 
 ### Create a Virtual Environment (optional)
 
@@ -491,7 +488,7 @@ When using `conda`, you can create a new environment with the name 'my-jsp-insta
 conda create -n my-jsp-instance-utils python=3.11
 ```
 
-Feel free to use any other name for the environment or an more recent version of python.
+Feel free to use any other name for the environment or a more recent version of python.
 Activate the environment with the following command:
 
 ```shell
